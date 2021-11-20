@@ -1,6 +1,6 @@
 # Sobre o Projeto
 
-Segundo projeto avaliativo do primeiro módulo (FronEnd) do curso DEVInHouse. O Projeto consiste em uma aplicação simples, consumindo a api [MMO Games API](https://rapidapi.com/digiwalls/api/mmo-games/) através do serviço [Rapid API](https://rapidapi.com/hub), com uma página listando as notícias, outra listando os games, e uma terceira com detalhes sobre o respectivo game selecionado na página anterior de listagem dos games. 
+Segundo projeto avaliativo do primeiro módulo (FronEnd) do curso DEVInHouse. O Projeto consiste em uma aplicação simples, construída em React e consumindo a api [MMO Games API](https://rapidapi.com/digiwalls/api/mmo-games/) através do serviço [Rapid API](https://rapidapi.com/hub), com uma página listando as notícias, outra listando os games, e uma terceira com detalhes sobre o respectivo game selecionado na página anterior de listagem dos games. 
 Na terceira página, sobre os detalhes do game selecionado,  deve constar um formulário com validação para envio de comentários, e os comentários devem contar com um  sistema de likes, ambos (comentários e likes) salvos no local storage e atrelados ao game em questão.
 
 #### [Link do projeto na netlify](https://sleepy-sammet-4b6cba.netlify.app/)
