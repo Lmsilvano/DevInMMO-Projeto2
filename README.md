@@ -19,6 +19,6 @@ Request(Get)
 ##### Formik ^2.2.9
 Com Yup para validação.
 
-## Intruções para rodar o projeto.
+## Instruções para rodar o projeto.
 Basta clonar, ou fazer donwload deste repositório, e com o [Node](https://nodejs.org/en/) devidamente instalado, execute o comando(no terminal de sua preferência) "npm install -y" no diretório raiz deste projeto.
 Após concluir a instalação, mantendo-se no diretório raiz do projeto, execute o comando "npm start".
