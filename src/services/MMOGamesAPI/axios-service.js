@@ -10,7 +10,7 @@ export function optionsGen(op, detail) {
             withCredentials: true,
             headers: {
                 'x-rapidapi-host': 'mmo-games.p.rapidapi.com',
-                'x-rapidapi-key': 'dab44ff0ecmsh6ef9d47b94e920cp1656f0jsna278c339b084'
+                'x-rapidapi-key': 'your key'
             },
 
         };
@@ -21,7 +21,7 @@ export function optionsGen(op, detail) {
             url: `https://mmo-games.p.rapidapi.com/${op}`,
             headers: {
                 'x-rapidapi-host': 'mmo-games.p.rapidapi.com',
-                'x-rapidapi-key': 'dab44ff0ecmsh6ef9d47b94e920cp1656f0jsna278c339b084'
+                'x-rapidapi-key': 'your key'
             }
         };
         return options
