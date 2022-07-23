@@ -33,7 +33,7 @@ Com Yup para validação.
 ![Games](screens/games.png?raw=true)
 ### Games Details
 ---
-![Games Details](screens/gamedetails.png?raw=true)
+![Games Details](screens/gamedetail.png?raw=true)
 ---
 ### Responsividade
 ![Responsividade](screens/responsividade.png?raw=true)
