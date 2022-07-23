@@ -1,6 +1,6 @@
 import axios from "axios";
-
-
+const apiKey = process.env.REACT_APP_API_KEY
+console.log(apiKey)
 export function optionsGen(op, detail) {
     if (detail) {
         const options = {
@@ -10,7 +10,7 @@ export function optionsGen(op, detail) {
             withCredentials: true,
             headers: {
                 'x-rapidapi-host': 'mmo-games.p.rapidapi.com',
-                'x-rapidapi-key': 'your key'
+                'x-rapidapi-key': apiKey
             },
 
         };
@@ -21,7 +21,7 @@ export function optionsGen(op, detail) {
             url: `https://mmo-games.p.rapidapi.com/${op}`,
             headers: {
                 'x-rapidapi-host': 'mmo-games.p.rapidapi.com',
-                'x-rapidapi-key': 'your key'
+                'x-rapidapi-key': apiKey
             }
         };
         return options

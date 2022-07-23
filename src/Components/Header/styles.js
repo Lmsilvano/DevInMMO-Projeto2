@@ -25,10 +25,15 @@ export const StyledHeader = styled.header`
     font-size: 28px;
     letter-spacing: 2px;
     cursor: pointer;
+    @media (max-width: 568px) {
+        justify-content: space-between
+         }
     .logo_sub1{
+        width: auto;
         color: #ff0000ab;
     }
     .logo_sub2{
+        width: auto;
         background: -webkit-linear-gradient(80deg, #ee7752, #e73c7e);
         -webkit-background-clip: text;
         background-clip: text;

@@ -15,7 +15,7 @@ function NavBar() {
             }
             to="/News"
           >
-            News <BiNews />
+            <p className="link__content">News</p> <BiNews />
           </NavLink>
         </li>
         <li className="Nav__Li">
@@ -25,7 +25,7 @@ function NavBar() {
             }
             to="/Games"
           >
-            Games <CgGames />
+            <p className="link__content">Games</p> <CgGames />
           </NavLink>
         </li>
       </ul>

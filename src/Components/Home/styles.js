@@ -5,7 +5,7 @@ export const StyledSectionHome = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80vw !important;
 
 
         
@@ -14,10 +14,13 @@ export const StyledSectionHome = styled.section`
 
 
 export const StyledNavHome = styled.nav`
-    position: absolute;
-    width: 30%;
-    top: 25%;
-    left: 36%;
+    position: fixed;
+    //width: 500px;
+    //height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -115px; /* Negative half of width. */
     display: flex;
     list-style: none;
     align-content: center;

@@ -10,6 +10,10 @@ export const StyledDivInputNews = styled.div`
     margin: 10px auto;
     width: 50%;
     gap: 10px;
+    @media (max-width: 548px) {
+           width: 90%;
+         }
+
     input{
         width: 100%;
         height: 30px;
@@ -60,11 +64,18 @@ export const StyledDivCards = styled.article`
     border-radius: 8px;
     box-shadow: rgb(0 0 0 / 35%) 0px 4px 12px;
     border-bottom: 2px solid rgba(0,0,0,0.1);
+    @media (max-width: 760px) {
+           flex-direction: column;
+         }
     .cardIMG {
         height: 150px;
         width: 218px;
         border-radius: 10px;
         //flex:1;
+        @media (max-width: 420px) {
+           width: 150px;
+         }
+        
     }
     .cardContent {
         display: flex;
@@ -74,6 +85,14 @@ export const StyledDivCards = styled.article`
         h3{
             font-weight: 700;
             letter-spacing: 1px;
+            @media (max-width: 550px) {
+                overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2; /* number of lines to show */
+                    line-clamp: 2; 
+            -webkit-box-orient: vertical;
+         }
         }
         p{
             color:black;
@@ -90,6 +109,9 @@ export const StyledDivCards = styled.article`
         padding: 5px;
         border-radius: 8px;
         font-weight: 500;
+        @media (max-width: 1320px) {
+           width: 150px;
+         }
         :hover{
             transition: 450ms;
             background: none;

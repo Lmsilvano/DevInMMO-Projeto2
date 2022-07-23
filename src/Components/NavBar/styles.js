@@ -19,7 +19,11 @@ export const StyledNav = styled.nav`
             border: none;
             margin-left: 10px;
             cursor: pointer;
-
+            @media (max-width: 568px) {
+            p {
+                display: none;
+            }
+         }
             &:hover{
                 svg{
                     color: #D2122E;

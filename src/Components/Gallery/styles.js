@@ -26,6 +26,9 @@ export const StyledDivGallery = styled.div`
         }
     }
     .SecondaryIMG{
+        @media (max-width: 886px) {
+           display: none;
+         }
         display: flex;
         width: 90%;
         justify-content: center;

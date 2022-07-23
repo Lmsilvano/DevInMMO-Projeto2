@@ -11,6 +11,9 @@ export const StyledMain = styled.main`
         background: white;
         min-height: 80vh;
         width: 80%;
+        @media (max-width: 575px) {
+           width: 95%;
+         }
         background: linear-gradient(
             to right bottom,
             rgba(255, 255, 255, 0.7),
